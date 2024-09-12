@@ -19,8 +19,7 @@ require_once __DIR__ . "/vendor/phpmailer/phpmailer/src/PHPMailer.php";
 require_once __DIR__ . "/vendor/phpmailer/phpmailer/src/Exception.php";
 
 
-$access_token = "APP_USR-7208056047642010-012918-52a257a9492ca36c794be5d3529e7b37-194955219";
-//$access_token = "APP_USR-2541754497073709-011518-6a04376f440243b9982ff82c3f458066-1186797523";
+$access_token = "";
 
 try {
 
