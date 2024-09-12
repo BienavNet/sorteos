@@ -9,8 +9,7 @@ use MercadoPago\MercadoPagoConfig as MPC;
 use MercadoPago\Resources\Preference;
 
 
-$access_token = "TEST-1195720665909450-042913-736ac513493e15375aa70b9bbe45730c-1186797523";
-//$access_token = "APP_USR-2541754497073709-011518-6a04376f440243b9982ff82c3f458066-1186797523";
+$access_token = "";
 
 MPC::setAccessToken($access_token);
 //$preference = new MercadoPago\Resources\Preference();
