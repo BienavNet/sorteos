@@ -26,11 +26,11 @@ function sendEmail($mail, $body, $email, $alt_body)
         $mail->isSMTP();
         $mail->Host = "smtp.gmail.com";
         $mail->SMTPAuth = true;
-        $mail->Username = "testproof490@gmail.com";
-        $mail->Password = "dwhp gwib sclz sfnp";
+        $mail->Username = "";
+        $mail->Password = "";
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
-        $mail->setFrom("testproof490@gmail.com", "Tornilujos la 40");
+        $mail->setFrom("", "Tornilujos la 40");
         $mail->addAddress("$email");
         $mail->isHTML(true);
         $mail->Subject = "Entrega de Boletos";
@@ -45,10 +45,10 @@ function sendEmail($mail, $body, $email, $alt_body)
 
 $mail = new PHPMailer(true);
 $body = file_get_contents(__DIR__.'/res/resend.html');
-$alt_body = "Gracias por su compra<br>Orden # 76519768642 <br>Cedula: 18929109<br>Nombre: Fernando Medina Lozada<br>Correo: Fernandomadinalozada@hotmail.com<br>Telefono: 3118540807<br>Boletos: 2778";
+$alt_body = "Gracias por su compra<br>Orden #  <br>Cedula: <br>Nombre: Fernando Medina Lozada<br>Correo: <br>Telefono: <br>Boletos: ";
 
-sendEmail($mail, $body, "testproof490@gmail.com", $alt_body);
-sendEmail($mail, $body, "Fernandomadinalozada@hotmail.com", $alt_body);
+sendEmail($mail, $body, "", $alt_body);
+sendEmail($mail, $body, "", $alt_body);
 
 
 echo "correo enviado";
