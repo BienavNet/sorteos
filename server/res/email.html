@@ -1,0 +1,105 @@
+<body style="background-image: url('/sorteo/img/brand_logo.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+    
+    <table style="width:100%;border-radius:6px;margin:auto;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif; margin-left: 2rem; margin-bottom: 3rem; margin-top: 5rem;">
+
+        <tbody>
+            <tr style="font-size:0px;line-height:0" height="0">
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="15" style="font-size:2rem">
+                    <h3>Muchas gracias por su compra</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="15" style="font-size:1rem">
+                    Acontinuacion le mostraremos los detalles de la transaccion, y los numeros de los boletos asignados.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    
+    <table
+        style="width:100%;border:1px solid black;border-radius:6px;margin:auto;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;font-size:12px;">
+    
+        <tbody>
+            <tr style="font-size:0px;line-height:0" height="0">
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+                <td width="16.6%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="6" style="background-color:#669510;color:#ffffff;padding:10px;font-size:16px">
+                    <b>Detalles de la compra</b>
+                </td>
+            </tr>
+    
+            <tr>
+                <td colspan="4" style="padding:10px 10px 10px 0px;vertical-align:top">
+                    <div style="font-size:24px; margin-left: 2rem;">
+                        <br>
+                        <b># de orden: {ORDEN}</b><br><br>
+                        Cedula: {CEDULA} <br><br>
+                        Nombre completo: {NOMBRE} {APELLIDO}<br>
+                        <br>Correo: {CORREO}<br>
+                        <br>Telefono: {TELEFONO} <br>
+                        <br>
+    
+    
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding:10px 0px;font-size:14px;border-bottom:1px solid">&nbsp;</td>
+                <td colspan="2" style="padding:10px 10px 10px 0px;font-size:14px;border-bottom:1px solid"><b>Cantidad:</b>
+                    {CANTIDAD}</td>
+                <td style="padding:10px 0px;font-size:24px;border-bottom:1px solid"><b>Valor unitario: </b></td>
+                <td style="text-align:right;padding:10px;font-size:14px;border-bottom:1px solid; font-size: 24px;"><b> $100.000 COP</b></td>
+            </tr>
+    
+            <tr>
+                <td colspan="4">&nbsp;</td>
+                <td style="padding:10px 0px;font-size:24px"><b>Total</b></td>
+                <td style="text-align:right;padding-right:10px;font-size:24px"><b>$ {TOTAL}</b></td>
+            </tr>
+        </tbody>
+    
+    
+    </table>
+    
+    <table
+        style="width:100%;border:1px solid black;border-radius:6px;margin:auto;font-family:Helvetica,'Helvetica Neue',Arial,sans-serif;font-size:12px; margin-top: 15px;"
+        cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr style="font-size:0px;line-height:0" height="0">
+                <td width="33.3%">&nbsp;</td>
+                <td width="33.3%">&nbsp;</td>
+                <td width="33.3%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="6" style="background-color:#669510;color:#ffffff;padding:10px;font-size:16px">
+                    <b>Tus boletos</b>
+                </td>
+            </tr>
+            <tr>
+                {BOLETOS}
+                <td style="padding:10px;vertical-align:top">
+                    &nbsp;
+                </td>
+    
+            </tr>
+    
+        </tbody>
+    </table>
+    
+</body>
+
