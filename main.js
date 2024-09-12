@@ -19,7 +19,7 @@ var available_tickets = false;
 console.log(available_tickets)
 
 //const mp = new MercadoPago('TEST-5ec0aefe-1128-4b23-bbe7-e8bfc67da5c6');
-const mp = new MercadoPago('TEST-8908da28-7c6b-4131-9f46-2b265f901331');
+const mp = new MercadoPago('');
 
 const bricksBuilder = mp.bricks();
 
